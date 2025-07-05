@@ -1,0 +1,46 @@
+.App {
+  padding: 20px;
+  font-family: Arial;
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-section,
+.filters {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 6px;
+}
+
+select, button {
+  padding: 6px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.high-priority {
+  border-left: 6px solid red;
+  background-color: #fff3f3;
+}
